@@ -62,7 +62,7 @@
  		3. Create a new tag: git tag v1.0.0
 	  	4. Compare branches: git diff feature/user-authentication main
 
-5.**Undoing things**: As you encounter issues, you have stable milestones you know you can restore back. You can stash away pending changes or, safely undo changes using Git's commands:
+5. **Undoing things**: As you encounter issues, you have stable milestones you know you can restore back. You can stash away pending changes or, safely undo changes using Git's commands:
 	1. Stash changes: git stash
  	2. Restore changes from stash: git stash pop
   	3. Undo changes in working directory: git checkout -- <file>
