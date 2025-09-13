@@ -67,26 +67,28 @@
  	2. Restore changes from stash: git stash pop
   	3. Undo changes in working directory: git checkout -- <file>
 
-6. **Branching and merging**: Your team makes sure to keep up with branching and merging changes. The team tests their changes in the feature branch to avoid introducing any issues or bugs into the main branch. 
+7. **Branching and merging**: Your team makes sure to keep up with branching and merging changes. The team tests their changes in the feature branch to avoid introducing any issues or bugs into the main branch.
 	1. Merge changes from feature branch to main: git checkout main - git merge feature/user-authentication
 	2. Delete feature branch: git branch -d feature/user-authentication
 
-7. **Solving Conflicts**: As code conflicts arise during merging, you attempt to automerge. When deeper conflicts arise, you gather your team and address them collaboratively.
+9. **Solving Conflicts**: As code conflicts arise during merging, you attempt to automerge. When deeper conflicts arise, you gather your team and address them collaboratively.
 	1. Attempt to automerge: git merge feature/user-authentication
 	2. Resolve conflicts manually:
 	3. Edit files to resolve conflicts: git add <resolved-files> - git commit -m "Resolved conflicts"
 
-8. **Pull requests and code reviews**: One of your team members opens up a pull request for your feature branch. It is finally time to merge our feature into the main branch. Automated tests run against the code in question and your team schedules a code review. You prepare to gather and track feedback.
+10. **Pull requests and code reviews**: One of your team members opens up a pull request for your feature branch. It is finally time to merge our feature into the main branch.
+Automated tests run against the code in question and your team schedules a code review. You prepare to gather and track feedback.
 	1. Push changes and open pull request: git push origin feature/user-authentication
 	2. Automated tests run in CI/CD pipeline
 	3. Pull request is reviewed
 	4. Feedback is addressed
 
-9. **Code reviews**: All concerned parties participate in code reviews.
+12. **Code reviews**: All concerned parties participate in code reviews.
 	1. Team members address the group and review their code additions.
 	2. Tests and metrics are also reviewed.
 	3. The team collaborates at addressing feedback and ensuring high-quality code.
 
-11. **Managing projects**: Throughout the project, and even after development efforts have concluded, you continue to track the progress of your feature using project boards, milestones, and issues. Development is iterative and your team will continue to work on features as feedback and requests come in from stakeholders.
+13. **Managing projects**: Throughout the project, and even after development efforts have concluded, you continue to track the progress of your feature using project boards, milestones, and issues.
+Development is iterative and your team will continue to work on features as feedback and requests come in from stakeholders.
 
 By applying your skills across the development life-cycle, you've successfully contributed to the project's growth and demonstrated your expertise in IT and project management.
