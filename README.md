@@ -25,25 +25,25 @@ This project will be Following to the instruction of Agile final project and Git
   
     Following are the requirements from your stakeholders that you should use to create the user stories in Kanban board:
     
-  -  Need the ability to create a product in the catalog.  
+  1.  Need the ability to create a product in the catalog.  
     
-  -  Need the ability to retrieve a product from the catalog.  
+  2.  Need the ability to retrieve a product from the catalog.  
     
-  -  Need the ability to update a product in the catalog.  
+  3.  Need the ability to update a product in the catalog.  
     
-  - Need the ability to delete a product from the catalog.  
+  4. Need the ability to delete a product from the catalog.  
     
-  - Need the ability to Like a product in the catalog.  
+  5. Need the ability to Like a product in the catalog.  
     
-  - Need the ability to Dislike a product in the catalog.  
+  6. Need the ability to Dislike a product in the catalog.  
     
-  - Need the ability to list all products in the catalog.
+  7. Need the ability to list all products in the catalog.
   
-  - Need the ability to query a subset of products in the catalog.  
+  8. Need the ability to query a subset of products in the catalog.  
     
-  - Must be hosted in the cloud.  
+  9. Must be hosted in the cloud.  
     
-  - Must have automation to deploy new changes to the cloud.
+  10. Must have automation to deploy new changes to the cloud.
 
   ---
   
@@ -73,13 +73,15 @@ This project will be Following to the instruction of Agile final project and Git
       
     11. Create a sprint milestone with a duration of 2 weeks, named Sprint.
       
-    12. Conduct a Sprint Planning meeting. Add the top 4 stories to the sprint, assign them to the sprint milestone, and assign story point estimates. Move these 4 stories to the Sprint Backlog.  
+    12. Conduct a Sprint Planning meeting. Add the top 4 stories to the sprint, assign them to the sprint milestone, and assign story point estimates.  
+    Move these 4 stories to the Sprint Backlog.  
       
     13. Simulate a sprint by assigning the top story to yourself. Move it to the In Progress column.  
     
     14. Move the story to Review/QA. Take the next story from the Sprint Backlog, assign it to yourself, and move it to the In Progress column.
       
-    15. Move the story in Review/QA to Done. Move the story from In Progress to Review/QA. Take the next story off the Sprint Backlog, assign it to yourself, and move it to the In Progress column.  
+    15. Move the story in Review/QA to Done. Move the story from In Progress to Review/QA. Take the next story off the Sprint Backlog,  
+    assign it to yourself, and move it to the In Progress column.  
       
     16. Move the story in Review/QA to Done. Leave the story in the In Progress column where it is. This marks the end of the sprint.  
       
